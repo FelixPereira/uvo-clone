@@ -1,0 +1,27 @@
+.title-h3{
+    color: #FF3771;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.5;
+}
+
+.btn{
+    background: linear-gradient(to right, #FF1D7D, #FF605E);
+    padding: 20px 40px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.btn:hover{
+    transform: translateY(-4px);
+    transition: .3s;
+}
