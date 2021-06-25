@@ -1,14 +1,28 @@
+/* Reset */
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 100px 20px;
+}
+
 .title-h3{
-    color: #FF3771;
+    color: #FF7297;
     font-weight: 600;
     margin-bottom: 30px;
+    text-align: center;
+    font-size: 17px;
 }
 
 .title{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     color: #000;
     line-height: 1.5;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .btn{
@@ -25,3 +39,44 @@
     transform: translateY(-4px);
     transition: .3s;
 }
+
+/* Reset end */
+
+/* Seo implementation effectively start */
+
+
+.seoimplement-step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seoimplement_step-item{
+    background-image: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 20px 40px 10px #F6F5FFed;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 20px;
+    transition: .5s;
+}
+
+
+.seoimplement_step-item:hover{
+    transform: translateY(-5px);
+    border-bottom:  1px solid #FF1D7D;
+    transition: .5s;
+}
+
+.seoimplement_item-tile{
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 0;
+    letter-spacing: .5px;
+}
+/* Seo implementation effectively end */
+
+/* Seo implementation start */
+
+/* Seo implementation start */
