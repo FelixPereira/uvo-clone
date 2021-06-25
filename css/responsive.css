@@ -52,7 +52,7 @@
 }
 
 .seoimplement_step-item{
-    background-image: #fff;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 2px 20px 40px 10px #F6F5FFed;
     width: 100%;
@@ -110,7 +110,30 @@
     background-image: url(../img/img1.png);
     background-repeat: no-repeat;
     background-position: center top -4px;
-
 }
 
 /* Seo implementation end */
+
+/* Seo implementation efficiently start */
+.seoimplemnteffic{
+    background-color: #04122D;
+}
+
+.seoimplement_step-item{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 20px 40px 10px #F6F5FFed;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 20px;
+    transition: .5s;
+}
+
+
+.seoimplement_step-item:hover{
+    transform: translateY(-5px);
+    border-bottom:  1px solid #FF1D7D;
+    transition: .5s;
+}
+/* Seo implementation efficiently end */
