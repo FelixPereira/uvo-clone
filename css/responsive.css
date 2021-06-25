@@ -11,7 +11,7 @@
 .title-h3{
     color: #FF7297;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 17px;
 }
@@ -78,5 +78,22 @@
 /* Seo implementation effectively end */
 
 /* Seo implementation start */
+.seoimplemnt_title-h3{
+    margin-top: 30px;
+    text-align: left;
+}
+
+.seoimplemnt_title-h2{
+    text-align: left;
+}
+
+.seoimplemnt_paragraph{
+    font-size: 14px;
+    margin: 20px 0;
+    color: #5454548f;
+    font-weight: 600;
+    text-align: left;
+    line-height: 2;
+}
 
 /* Seo implementation start */
