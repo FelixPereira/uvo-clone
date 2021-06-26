@@ -285,3 +285,15 @@
     margin-bottom: 15px;
 }
 /* Section services end */
+
+/* Section results start */
+.results-img{
+    transition: .5s;
+}
+
+.results-img:hover{
+    transform: translateX(-10px);
+    transition: .5s;
+}
+
+/* Section results end */
