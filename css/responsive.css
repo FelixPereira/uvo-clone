@@ -40,6 +40,15 @@
     transition: .3s;
 }
 
+.paragraph{
+    font-size: 14px;
+    margin: 20px 0 40px 0;
+    color: #5454548f;
+    font-weight: 600;
+    text-align: left;
+    line-height: 2;
+}
+
 /* Reset end */
 
 /* Seo implementation effectively start */
