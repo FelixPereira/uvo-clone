@@ -5,7 +5,7 @@
 }
 
 .container{
-    padding: 100px 20px;
+    padding: 100px 15px;
 }
 
 .title-h3{
@@ -115,25 +115,71 @@
 /* Seo implementation end */
 
 /* Seo implementation efficiently start */
-.seoimplemnteffic{
+.seoimplementeffic{
     background-color: #04122D;
 }
 
-.seoimplement_step-item{
+.seoimplementeffic-title{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.seoimplementeffic-paragraph{
+    color: #D2D3D5;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.seoimplementeffic_step-item{
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 2px 20px 40px 10px #F6F5FFed;
     width: 100%;
     text-align: center;
     margin: 20px auto;
-    padding: 50px 20px;
+    padding: 30px 20px;
     transition: .5s;
 }
 
+.step-dest{
+    background: linear-gradient(to right, #FF1284, #FF6F56);
+}
 
-.seoimplement_step-item:hover{
+.seoimplementeffic_step-item:hover{
     transform: translateY(-5px);
     border-bottom:  1px solid #FF1D7D;
     transition: .5s;
+}
+
+.seoimplementeffic-step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seoimplementeffic-number{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.number-dest{
+    color: #fff;
+}
+
+.seoimplementeffic_paragraph-desc{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.paragraph-dest{
+    color: #fff;
+}
+
+.seoimplementeffic-img{
+    width: 70px;
+    margin-bottom: 10px;
 }
 /* Seo implementation efficiently end */
