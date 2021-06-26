@@ -87,6 +87,14 @@
 /* Seo implementation effectively end */
 
 /* Seo implementation start */
+.seoimplement-img{
+    transition: .5s;
+}
+.seoimplement-img:hover{
+    transform: translatey(-10px);
+    transition: .5s;
+}
+
 .seoimplemnt_title-h3{
     margin-top: 30px;
     text-align: left;
@@ -192,3 +200,19 @@
     margin-bottom: 10px;
 }
 /* Seo implementation efficiently end */
+
+/*Section Impress Upon Search Engines start */
+.impress-img{
+    transition: .5s;
+}
+
+.impress-img:hover{
+    transform: translateX(-10px);
+    transition: .5s;
+}
+
+.impress_title-h3, .impress_title-h2{
+    text-align: left;
+
+}
+/*Section Impress Upon Search Engines end */
