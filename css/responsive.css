@@ -260,4 +260,19 @@
     color: #fff;
     margin-bottom: 10px;
 }
+
+.services-item{
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px 20px;
+    transition: .5s;
+}
+
+
+.services-item:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+}
 /* Section services end */
