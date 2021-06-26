@@ -258,21 +258,30 @@
 
 .services-title{
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.service-title{
+    color: #fff;
+}
+
+.service-description{
+    color: #D2D3D5;
+    text-align: center;
 }
 
 .services-item{
-    border-radius: 5px;
-    width: 100%;
     text-align: center;
-    margin: 20px auto;
-    padding: 30px 20px;
     transition: .5s;
 }
-
 
 .services-item:hover{
     transform: translateY(-5px);
     transition: .5s;
+}
+
+.service-img{
+    width: 50px;
+    margin-bottom: 15px;
 }
 /* Section services end */
