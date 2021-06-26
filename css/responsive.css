@@ -44,8 +44,8 @@
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     margin: 20px 0 40px 0;
-    color: #5454548f;
-    font-weight: 600;
+    color: #545454;
+    font-weight: 400;
     text-align: left;
     line-height: 2;
 }
@@ -106,12 +106,7 @@
 }
 
 .seoimplemnt_paragraph{
-    font-size: 14px;
-    margin: 20px 0 40px 0;
-    color: #5454548f;
-    font-weight: 600;
     text-align: left;
-    line-height: 2;
 }
 
 .howtoimplemet-steps{
@@ -125,9 +120,10 @@
     color: inherit;
     font-weight: 600;
     padding: 30px 0;
-    background-image: url(../img/img1.png);
+    background-image: url(../img/check.png);
     background-repeat: no-repeat;
-    background-position: center top -4px;
+    background-position: center top -5px;
+    background-size: 20px;
 }
 
 /* Seo implementation end */
@@ -144,11 +140,8 @@
 
 .seoimplementeffic-paragraph{
     color: #D2D3D5;
-    font-size: 14px;
-    font-weight: 600;
     text-align: center;
-    line-height: 2;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .seoimplementeffic_step-item{
@@ -187,9 +180,9 @@
 }
 
 .seoimplementeffic_paragraph-desc{
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .paragraph-dest{
@@ -197,8 +190,8 @@
 }
 
 .seoimplementeffic-img{
-    width: 70px;
-    margin-bottom: 10px;
+    width: 50px;
+    margin-bottom: 15px;
 }
 /* Seo implementation efficiently end */
 
