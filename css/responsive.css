@@ -311,6 +311,13 @@
     margin-top: 10px;
 }
 
-
-
 /* Section results end */
+
+/* Section video start */
+
+.video{
+    background-image: url(../img/bg-people.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* Section video end */
