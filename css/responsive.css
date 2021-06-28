@@ -5,7 +5,7 @@
 }
 
 .container{
-    padding: 100px 15px;
+    padding: 90px 15px;
 }
 
 .title-h3{
@@ -316,8 +316,50 @@
 /* Section video start */
 
 .video{
+    padding: 100px;
+    text-align: center;
     background-image: url(../img/bg-people.jpg);
     background-position: center;
     background-size: cover;
 }
 /* Section video end */
+
+
+/*Section check start */
+
+.check{
+    background-color: #03112D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.check_contact-number{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.check-title{
+    color: #fff;
+}
+
+.img-phone{
+    width: 50px;
+    text-align: center;
+}
+
+.phone-number{
+    color: #FF2D76;
+}
+
+.img-analyze{
+    width: 100%;
+}
+/*Section check end */
