@@ -344,6 +344,7 @@
 .check_contact-number{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .check-title{
@@ -363,3 +364,41 @@
     width: 100%;
 }
 /*Section check end */
+
+/*Section testemonial start */
+.testemonial{
+    background-color: #EBF1FE;
+}
+
+.testimonial-author{
+    padding: 20px 20px 40px ;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+.testimonial-author:hover{
+    transform: translateY(-3px);
+    transition: .5s;
+}
+
+.testimonial_author-info{
+    display: flex;
+}
+
+.author-img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.author-name-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.author-title{
+    margin: 10px 0 0 0;
+}
+
+/*Section testemonial end */
