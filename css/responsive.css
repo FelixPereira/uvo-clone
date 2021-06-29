@@ -386,11 +386,13 @@
 
 .testimonial_author-info{
     display: flex;
+    align-items: center;
 }
 
 .author-img{
-    width: 50px;
+    width: 70px;
     margin-right: 20px;
+    border-radius: 100px;
 }
 
 .author-name-title{
@@ -400,6 +402,11 @@
 
 .author-title{
     margin: 10px 0 0 0;
+}
+
+.quote{
+    width: 70px;
+    margin-left: 30px;
 }
 
 /*Section testemonial end */
