@@ -418,5 +418,31 @@
 
 .footer-title{
     color: #fff;
+    margin-bottom: 30px;
 }
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.input-email{
+    height: 55px;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #F8F8F8;
+    margin-bottom: 5px;
+}
+
+.footer_input-btn{
+    font-size: 15px;
+    border: none;
+}
+
+.footer_input-btn:hover{
+    transform: none;
+}
+
 /*Footer end*/
