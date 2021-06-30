@@ -434,6 +434,7 @@
     padding-left: 10px;
     background-color: #F8F8F8;
     margin-bottom: 5px;
+    border: none;
 }
 
 .footer_input-btn{
@@ -443,6 +444,7 @@
 
 .footer_input-btn:hover{
     transform: none;
+    cursor: pointer;
 }
 
 /*Footer end*/
