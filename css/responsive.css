@@ -456,6 +456,21 @@
 .footer-paragraph{
     color: #D2D3D5;
     font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.social-icons{
+    display: flex;
+}
+
+.social_icon-item img{
+    width: 30px;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+
+.social_icon-item:last-child img{
+    margin-right: 0;
+}
 /*Footer end*/
