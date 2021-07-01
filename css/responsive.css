@@ -473,4 +473,31 @@
 .social_icon-item:last-child img{
     margin-right: 0;
 }
+
+.footer_title-h3{
+    color: #fff;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.footer_contacto-info{
+    list-style: none;
+}
+
+.footer_contacto-info-item{
+    color: #D2D3D5;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.footer_link-item{
+    color: #D2D3D5;
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.footer_link-item a{
+    font-weight: 400;
+}
 /*Footer end*/
