@@ -500,4 +500,17 @@
 .footer_link-item a{
     font-weight: 400;
 }
+
+.rodape-copyright{
+    background-color: #061534;
+    text-align: center;
+}
+
+.text-copyright{
+    color: #D2D3D5;
+    font-size: 14px;
+    font-weight: 400;
+    
+    
+}
 /*Footer end*/
