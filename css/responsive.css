@@ -447,6 +447,9 @@
     cursor: pointer;
 }
 
+.footer_company-info{
+    margin-bottom: 40px;
+}
 
 .footer-logo{
     width: 90px;
@@ -474,46 +477,60 @@
     margin-right: 0;
 }
 
+.footer_company-address{
+    margin-bottom: 40px;
+}
+
 .footer_title-h3{
     color: #fff;
     text-align: left;
-    margin: 30px 0;
+    margin-bottom: 25px;
 }
 
-.footer_contacto-info{
+.company_address-info{
     list-style: none;
 }
 
-.footer_contacto-info-item{
+.company_address-info-item{
+    font-family: 'Rubik', sans-serif;
     color: #D2D3D5;
     font-size: 16px;
-    margin: 10px 0;
+    margin-bottom: 25px;
 }
 
-.footer_link-item{
+.footer-services{
+    margin-bottom: 40px;
+}
+
+.footer_services-links-item{
     color: #D2D3D5;
     font-size: 16px;
-    margin: 20px 0;
+    margin-bottom: 25px;
+    transition: .5s;
 }
 
+.footer_services-links-item:hover{
+    color: #fff;
+    transition: .5s;
+}
 
 .footer_link-discover{
     color: #FF3373;
     font-size: 16px;
     text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 .rodape-copyright{
     background-color: #061534;
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .text-copyright{
     color: #D2D3D5;
     font-size: 14px;
     font-weight: 400;
-
-    
 }
 /*Footer end*/
