@@ -335,6 +335,7 @@
 /* Section video start */
 
 .video{
+    margin-top: 70px;
     padding: 100px;
     text-align: center;
     background-image: url(../img/bg-people.jpg);
@@ -343,6 +344,12 @@
 }
 /* Section video end */
 
+/* Logo slide start */
+.img-slide{
+    padding-top: 70px;
+}
+
+/* Logo slide start */
 
 /*Section check start */
 
@@ -351,6 +358,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .check-contact{
@@ -388,6 +398,8 @@
 /*Section testemonial start */
 .testemonial{
     background-color: #EBF1FE;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .testimonial-author{
@@ -433,6 +445,8 @@
 /*Footer star*/
 .footer{
     background-color: #03112D;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .footer-title{
