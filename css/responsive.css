@@ -494,23 +494,26 @@
     color: #D2D3D5;
     font-size: 16px;
     margin: 20px 0;
-    font-weight: 400;
 }
 
-.footer_link-item a{
-    font-weight: 400;
+
+.footer_link-discover{
+    color: #FF3373;
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 .rodape-copyright{
     background-color: #061534;
     text-align: center;
+    padding: 20px 0;
 }
 
 .text-copyright{
     color: #D2D3D5;
     font-size: 14px;
     font-weight: 400;
-    
+
     
 }
 /*Footer end*/
