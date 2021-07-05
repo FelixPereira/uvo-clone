@@ -63,6 +63,7 @@
     align-items: center;
 }
 
+
 .seoimplementeffec_step-item{
     background-color: #fff;
     border-radius: 5px;
@@ -567,3 +568,22 @@
     font-weight: 400;
 }
 /*Footer end*/
+
+
+/*For tablets start*/
+@media screen and (min-width: 768px) {
+    .seoimplementeffec-step{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .seoimplementeffec_step-item{
+        box-shadow: 2px 0px 70px 0px #f1f1ff;
+        margin: 20px auto;
+        width: 95%;
+        padding: 50px 20px;        
+    }
+}
+
+/*For tablets end*/
