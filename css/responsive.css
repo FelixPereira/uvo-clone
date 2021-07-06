@@ -110,20 +110,23 @@
 
 .seoimplemnt_title-h2{
     text-align: left;
+    line-height: 1.4;
 }
 
 .seoimplemnt_paragraph{
     text-align: left;
+    margin-bottom: 0;
 }
 
 .howtoimplemet-steps{
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
 }
 
 .howto_implement-step--item{
     font-size: 18px;
-    color: inherit;
+    color: #000;
     font-weight: 600;
     padding: 30px 0;
     background-image: url(../img/check.png);
@@ -587,7 +590,7 @@
     }
 
     .seoimplementeffec_step-item{
-        box-shadow: 2px 0px 70px 0px #f1f1ff;
+        box-shadow: 2px 0px 70px 0px #F0F0FF;
         margin: 20px auto;
         width: 95%;
         padding: 50px 20px;        
@@ -598,7 +601,7 @@
     }
 
     .seoimplement_img-container{
-        width: 45%;
+        width: 49%;
         margin-right: 25px;
     }
 
@@ -607,8 +610,8 @@
     }
 
     .seoimplement-text{
-        width: 55%;
-        padding-top: 0;
+        width: 51%;
+
     }
 
     .seoimplemnt_title-h3{
@@ -620,10 +623,12 @@
     }
   
     .howto_implement-step--item{
-        padding: 0 0px 0px 20px;
-        background-position: left top;
+        padding: 0 0px 0px 30px;
+        background-position: left top 8px;
         text-align: left;
-        line-height: 2;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        font-size: 17px;
     }
 }
 
