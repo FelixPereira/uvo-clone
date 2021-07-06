@@ -646,8 +646,18 @@
 
     .seoimplementeffic-step{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 1fr 1fr;
+    }
+
+    .seoimplementeffic_step-item{
+        display: flex;
+    }
+
+    .seoimplementeffic-img{
+        margin: 0 20px;
+        width: 50px;
+        height: 50px;
     }
     /* Seo implementation efficiently end */
 }
