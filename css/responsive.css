@@ -162,7 +162,7 @@
     border-radius: 5px;
     width: 100%;
     text-align: center;
-    margin: 20px auto;
+    margin: 15px auto;
     padding: 30px 20px;
     transition: .5s;
 }
@@ -646,18 +646,26 @@
 
     .seoimplementeffic-step{
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        column-gap: 30px;
     }
 
     .seoimplementeffic_step-item{
         display: flex;
+ 
     }
 
     .seoimplementeffic-img{
         margin: 0 20px;
         width: 50px;
         height: 50px;
+    }
+
+    .seoimplementeffic_step-descr{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     /* Seo implementation efficiently end */
 }
