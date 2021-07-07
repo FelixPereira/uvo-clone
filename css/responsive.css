@@ -20,7 +20,7 @@
     font-size: 30px;
     font-weight: 600;
     color: #000;
-    line-height: 1.5;
+    line-height: 1.32;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -110,7 +110,6 @@
 
 .seoimplemnt_title-h2{
     text-align: left;
-    line-height: 1.4;
 }
 
 .seoimplemnt_paragraph{
@@ -223,7 +222,6 @@
 
 .impress_title-h3, .impress_title-h2{
     text-align: left;
-
 }
 
 .impress-paragraph{
@@ -247,14 +245,14 @@
 
 .increase-monthly{
     background-image: url(../img/arrow-up.png);
-    background-position: left 97px top 10px;
+    background-position: right top 10px;
     margin-right: 20px;
 
 }
 
 .increase-yearly{
     background-image: url(../img/arrow-down.png);
-    background-position: left 90px top 10px;
+    background-position: right top 10px;
 }
 
 .impress_number-title{
@@ -668,6 +666,26 @@
         align-items: flex-start;
     }
     /* Seo implementation efficiently end */
+
+    /*Section Impress Upon Search Engines start */
+    .impress{
+        display: flex;
+    }
+
+    .impress_img-container{
+        width: 49%;
+        margin-right: 10px;
+    }
+
+    .impress-img{
+        max-width: 100%;
+    }
+
+    .impress-text{
+        width: 51%;
+        margin-top: 20px;
+    }
+    /*Section Impress Upon Search Engines end */
 }
 
 /*For tablets end*/
