@@ -700,6 +700,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .services-item{
+        display: flex;
+    }
+
     /*Section services end */
 }
 
