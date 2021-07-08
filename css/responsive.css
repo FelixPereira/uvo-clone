@@ -685,7 +685,24 @@
         width: 51%;
         margin-top: 20px;
     }
+
     /*Section Impress Upon Search Engines end */
+
+
+    /*Section services start */
+    
+    .services{
+        display: flex;
+    }
+
+    .service_item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*Section services end */
 }
+
+
 
 /*For tablets end*/
