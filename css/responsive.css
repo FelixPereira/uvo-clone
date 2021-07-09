@@ -671,6 +671,7 @@
     /*Section Impress Upon Search Engines start */
     .impress{
         display: flex;
+        justify-content: space-between;
     }
 
     .impress_img-container{
@@ -702,11 +703,11 @@
     }
 
     .services-section{
-        width: 65%;
+        width: 60%;
     }
 
     .services-rocket{
-        width: 35%;
+        width: 40%;
         align-self: flex-end;
     }
 
@@ -741,6 +742,26 @@
     }
 
     /*Section services end */
+
+    /*Section Best Search Engine Results start*/
+    .results{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .results_img-container{
+        width: 49%;
+        margin-right: 10px;
+    }
+    
+    .results-img{
+        max-width: 100%;
+    }
+
+    .result-text{
+        width: 51%;
+    }
+    /*Section Best Search Engine Results end*/
 }
 
 
