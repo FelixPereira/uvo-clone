@@ -129,6 +129,7 @@
     color: #000;
     font-weight: 600;
     padding: 30px 0;
+    line-height: 1.5;
     background-image: url(../img/check.png);
     background-repeat: no-repeat;
     background-position: center top -5px;
@@ -477,7 +478,7 @@
 }
 
 .footer-section-links{
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .footer_company-info{
@@ -805,6 +806,9 @@
     /* Section testemonial end */
 
     /* Footer start */
+
+ 
+
     .footer_section-form{
         display: grid;
         grid-template-columns: 15% 70% 15%;
@@ -837,12 +841,36 @@
     .footer-section-links{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+        padding-bottom: 0;
     }
     
     .footer_company-info,
     .footer_company-address{
         margin-bottom: 0;
+    }
+
+    .footer-services{
+        margin-bottom: 0;
+    }
+
+    .footer_float-img-container{
+        position: relative;
+    }
+
+    .footer_float-img1,
+    .footer_float-img2{
+        width: 20px;
+    }
+
+    .footer_float-img1{
+        position: absolute;
+        right: 50%;
+    }
+
+    .footer_float-img2{
+        position: absolute;
+        right: -10px;
     }
     /* Footer end */
 
