@@ -872,6 +872,46 @@
         position: absolute;
         right: -10px;
     }
+
+
+    @keyframes animation {
+        0% {
+            transform: translate(5px, 15px);
+        }
+
+        25% {
+            transform: translate(-5px, 5px);
+        }
+
+        50% {
+            transform: translate(5px, -20px);
+        }
+
+        75% {
+            transform: translate(-5px, -10px);
+        }
+
+        100% {
+            transform: translate(5px, 15px);
+        }
+     
+    }
+
+
+
+    .footer_float-img1,
+    .footer_float-img2{
+        animation-name: animation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: normal;
+
+    
+    }
+
+
+
     /* Footer end */
 
 }
