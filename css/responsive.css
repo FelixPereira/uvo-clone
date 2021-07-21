@@ -348,8 +348,35 @@
 /* Section video end */
 
 /* Logo slide start */
-.img-slide{
+.slider-logo{
     padding-top: 70px;
+
+
+
+}
+
+.slider-logos{
+    display: flex;
+    justify-content: center;
+
+
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.slide img{
+    text-align: center;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-250px);
+    }
 }
 
 /* Logo slide start */
@@ -405,7 +432,9 @@
     border-radius: 5px;
     margin-top: 30px;
     transition: .5s;
+    width: 100%;
 }
+
 
 .testimonial-author:hover{
     transform: translateY(-3px);
@@ -435,6 +464,29 @@
 .quote{
     width: 70px;
     margin-left: 30px;
+}
+
+.testimonial-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    column-gap: 20px;
+
+    /*animation: testemonialScroll;*/
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+
+@keyframes testemonialScroll{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
 }
 
 /*Section testemonial end */
