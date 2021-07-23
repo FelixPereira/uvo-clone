@@ -468,25 +468,6 @@
 
 .testimonial-cards{
     width: 100%;
-    display: grid;
-    grid-template-columns: 100% 100% 100%;
-    column-gap: 20px;
-
-    /*animation: testemonialScroll;*/
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-}
-
-
-
-@keyframes testemonialScroll{
-    0%{
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(-100%);
-    }
 }
 
 /*Section testemonial end */
