@@ -944,12 +944,18 @@
     
     }
 
-
-
     /* Footer end */
-
 }
 
-
-
 /*For tablets end*/
+
+/*For desktops start*/
+
+@media screen and (min-width: 1025px ){
+    .seoimplementeffec-step{
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        row-gap: 20px;
+    }
+}
+/*For desktops end*/
