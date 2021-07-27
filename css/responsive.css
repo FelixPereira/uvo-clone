@@ -141,6 +141,8 @@
 
 /* Seo implementation efficiently start */
 .seoimplementeffic{
+    display: flex;
+    flex-direction: column;
     background-color: #04122D;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -965,6 +967,33 @@
     .seoimplementeffec_step-item{
         width: 92%;
     }
+
+
+    /* Seo implementation descktop efficiently start */
+
+    .seoimplementeffic{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(../img/bg-map.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .seoimplementeffic-description{
+        width: 50%;
+    }
+
+    .seoimplementeffic-step{
+        width: 50%;
+    }
+
+    .seoimplementeffic-paragraph{
+        padding-right: 70px;
+    }
+
+    /* Seo implementation descktop efficiently end */
 }
 
 
