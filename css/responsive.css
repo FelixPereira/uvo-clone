@@ -954,8 +954,18 @@
 @media screen and (min-width: 1025px ){
     .seoimplementeffec-step{
         display: grid;
-        grid-template-columns: 24% 24% 24% 24%;
-        row-gap: 20px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 1fr;
+    }
+
+    .seoimplementeffec_title-h2{
+        padding: 0 200px;
+    }
+    
+    .seoimplementeffec_step-item{
+        width: 92%;
     }
 }
+
+
 /*For desktops end*/
