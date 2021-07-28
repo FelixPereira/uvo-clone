@@ -994,6 +994,16 @@
     }
 
     /* Seo implementation descktop efficiently end */
+
+    
+    /* Section video desktop start */
+
+    .video{
+        height: 500px;
+        background-attachment: fixed;
+    }
+
+    /* Section video desktop end */
 }
 
 
