@@ -493,6 +493,10 @@
     border: none;
 }
 
+.footer_float-img-container{
+    display: none;
+}
+
 .input-email{
     height: 55px;
     outline: none;
@@ -899,6 +903,7 @@
     }
 
     .footer_float-img-container{
+        display: block;
         position: relative;
     }
 
@@ -941,8 +946,6 @@
         }
      
     }
-
-
 
     .footer_float-img1,
     .footer_float-img2{
@@ -1122,8 +1125,8 @@
         padding-bottom: 100px;
     }
 
-    .footer_section-form{
-        padding: 0 10%;
+    .footer_form-container{
+        padding: 0 11%;
     }
 
     .footer-section-links{
