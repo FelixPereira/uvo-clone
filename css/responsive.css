@@ -346,14 +346,15 @@
     background-image: url(../img/bg-people.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Section video end */
 
 /* Logo slide start */
 .slider-logo{
     padding-top: 70px;
-
-
 
 }
 
@@ -1009,12 +1010,36 @@
 
     /* Seo implementation descktop efficiently end */
 
+    /* Section impress desktop start */
+
+    .impress{
+        padding-top: 100px;
+    }
+
+    /* Section impress desktop end */
+
+    /* Section services desktop start */
+
+    .services{
+        margin-top: 100px;
+    }
+
+    /* Section services desktop end */
+
+    /* Section results desktop start */
+
+    .results{
+        padding-top: 100px;
+    }
+
+    /* Section results desktop end */
     
     /* Section video desktop start */
 
     .video{
         height: 500px;
         background-attachment: fixed;
+        margin-top: 100px;
     }
 
     /* Section video desktop end */
