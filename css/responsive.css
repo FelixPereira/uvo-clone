@@ -92,7 +92,7 @@
 
 /* Seo implementation start */
 
-.seoimplemnt{
+.seoimplement{
     padding-top: 70px;
 }
 
@@ -104,16 +104,16 @@
     transition: .5s;
 }
 
-.seoimplemnt_title-h3{
+.seoimplement_title-h3{
     margin-top: 30px;
     text-align: left;
 }
 
-.seoimplemnt_title-h2{
+.seoimplement_title-h2{
     text-align: left;
 }
 
-.seoimplemnt_paragraph{
+.seoimplement_paragraph{
     text-align: left;
     margin-bottom: 0;
 }
@@ -637,7 +637,7 @@
         padding: 50px 20px;        
     }
 
-    .seoimplemnt{
+    .seoimplement{
         display: flex;
     }
 
@@ -655,7 +655,7 @@
 
     }
 
-    .seoimplemnt_title-h3{
+    .seoimplement_title-h3{
         margin-top: 0;
     }
   
@@ -974,6 +974,13 @@
 
     /* seoimplementeffec descktop end */
 
+    /* implementation SEO descktop  strat */
+
+    .seoimplement{
+        padding: 500px auto;
+    }
+
+     /* implementation SEO descktop  strat */
 
     /* Seo implementation descktop efficiently start */
 
