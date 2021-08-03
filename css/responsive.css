@@ -951,11 +951,15 @@
 
 /*For tablets end*/
 
-/*For desktops start*/
+/*For desktops descktop start*/
 
 @media screen and (min-width: 1025px ){
+
+    /* seoimplementeffec start */
+
     .seoimplementeffec-step{
         display: grid;
+        margin-top: 45px;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 1fr;
     }
@@ -967,6 +971,8 @@
     .seoimplementeffec_step-item{
         width: 92%;
     }
+
+    /* seoimplementeffec descktop end */
 
 
     /* Seo implementation descktop efficiently start */
