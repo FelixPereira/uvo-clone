@@ -1048,11 +1048,32 @@
 
     .check{
         margin-top: 100px;
-        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 0;
+    }
+
+    .check-text{
+        width: 50%;
+    }
+
+    .check_img-container{
+        margin-top: -8%;
+        height: 400px;
+        overflow: hidden;
     }
 
     /* Section video desktop end */
 
+    /* Section footer desktop star */
+
+    .footer{
+        
+    }
+
+    /* Section footer desktop end */
+
+    
 }
 
 
