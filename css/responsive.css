@@ -847,6 +847,7 @@
 
     .footer_section-form{
         display: flex;
+        justify-content: center;
     }
 
     .footer_float-img-container{
@@ -1075,8 +1076,7 @@
     /* Section footer desktop star */
 
     .footer_section-form{
-        width: 80%;
-        text-align: center;
+
     }
 
     /* Section footer desktop end */
