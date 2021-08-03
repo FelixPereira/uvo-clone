@@ -1079,6 +1079,15 @@
         padding: 0 10%;
     }
 
+    .footer-section-links{
+        grid-template-columns: 20% 20% 20% 25%;
+        column-gap: 5%;
+    }
+
+    .footer-services{
+        margin-left: 20%;
+    }
+
     /* Section footer desktop end */
 
     
