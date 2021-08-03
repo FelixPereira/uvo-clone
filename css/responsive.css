@@ -964,6 +964,11 @@
 
 @media screen and (min-width: 1025px ){
 
+    .container{
+        padding-right:5%;
+        padding-left:5%;
+    }
+
     /* seoimplementeffec start */
 
     .seoimplementeffec-step{
@@ -974,7 +979,7 @@
     }
 
     .seoimplementeffec_title-h2{
-        padding: 0 200px;
+        padding: 0 22%;
     }
     
     .seoimplementeffec_step-item{
@@ -987,9 +992,19 @@
 
     .seoimplement{
         padding-top: 100px;
+        align-items: center;
     }
 
-     /* implementation SEO descktop  strat */
+    .seoimplement_img-container{
+        width: 42%;
+        margin-right: 8%;
+    }
+
+    .seoimplement-text{
+        width: 50%;
+    }
+
+         /* implementation SEO descktop  strat */
 
     /* Seo implementation descktop efficiently start */
 
@@ -1005,7 +1020,7 @@
     }
 
     .seoimplementeffic-description{
-        width: 50%;
+        width: 48%;
     }
 
     .seoimplementeffic-step{
@@ -1059,6 +1074,7 @@
         flex-direction: row;
         justify-content: space-between;
         padding-top: 0;
+        padding-bottom: 0;
     }
 
     .check-text{
@@ -1077,10 +1093,14 @@
 
     .testemonial{
         display: flex;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .testemonial-text{
         width: 30%;
+        margin-right: 40px;
     }
 
     .testimonial-cards{
@@ -1096,6 +1116,11 @@
 
 
     /* Section footer desktop star */
+
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 
     .footer_section-form{
         padding: 0 10%;
