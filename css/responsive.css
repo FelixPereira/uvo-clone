@@ -846,8 +846,15 @@
  
 
     .footer_section-form{
-        display: grid;
-        grid-template-columns: 15% 70% 15%;
+        display: flex;
+    }
+
+    .footer_float-img-container{
+        width: 15%;
+    }
+
+    .footer_form-container{
+        width: 70%;
     }
 
     .footer-title{
@@ -1067,8 +1074,9 @@
 
     /* Section footer desktop star */
 
-    .footer{
-        
+    .footer_section-form{
+        width: 80%;
+        text-align: center;
     }
 
     /* Section footer desktop end */
