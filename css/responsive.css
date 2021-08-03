@@ -977,7 +977,7 @@
     /* implementation SEO descktop  strat */
 
     .seoimplement{
-        padding: 500px auto;
+        padding-top: 100px;
     }
 
      /* implementation SEO descktop  strat */
@@ -992,6 +992,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-top: 100px;
     }
 
     .seoimplementeffic-description{
