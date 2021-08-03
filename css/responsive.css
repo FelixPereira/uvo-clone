@@ -1073,6 +1073,28 @@
 
     /* Section video desktop end */
 
+    /* Section testimonial desktop start */
+
+    .testemonial{
+        display: flex;
+    }
+
+    .testemonial-text{
+        width: 30%;
+    }
+
+    .testimonial-cards{
+        width: 60%;
+    }
+
+    .testemonial_title-h3, .testemonial_title-h2{
+        padding-right: 0;
+    }
+
+
+    /* Section testimonial desktop end */
+
+
     /* Section footer desktop star */
 
     .footer_section-form{
