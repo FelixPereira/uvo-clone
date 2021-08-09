@@ -104,11 +104,18 @@
 
 .dashboard-img_container{
     width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.chart-2{
+    margin-left: -15%;
+    width: 60%;
+    height: 60%;
 }
 
 .floating-img{
     display: flex;
-    justify-content: space-between;
 }
 
 .dashboard-img, 
@@ -120,11 +127,13 @@
 .floating-plane{
     width: 35%;
     height: 20%;
+    margin-right: 20px;
 }
 
 .floating-tringulo{
-    width: 15%;
-    height: 10%; 
+    width: 12%;
+    height: 7%; 
+    transform: translateY(15px);
 }
 
 /* Hero end */
