@@ -108,11 +108,17 @@
 }
 
 .dashboard-img, 
-.chart-img,
-.floating-plane,
-.floating-tringulo{
+.chart-img
+{
     max-width: 100%;
 }
+
+.floating-plane,
+.floating-tringulo{
+    width: 50%;
+    height: 40%;
+}
+
 /* Hero end */
 
 /* Seo implementation effectively start */
