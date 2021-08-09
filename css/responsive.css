@@ -94,12 +94,16 @@
     margin-left: 15px;
 }
 
-.chart-img_container, .floating-img{
+.chart-img_container{
     width: 25%;
 }
 
+.floating-img{
+    width: 20%;
+}
+
 .dashboard-img_container{
-    width: 70%;
+    width: 65%;
 }
 
 .floating-img{
@@ -113,10 +117,14 @@
     max-width: 100%;
 }
 
-.floating-plane,
+.floating-plane{
+    width: 35%;
+    height: 20%;
+}
+
 .floating-tringulo{
-    width: 50%;
-    height: 40%;
+    width: 15%;
+    height: 10%; 
 }
 
 /* Hero end */
