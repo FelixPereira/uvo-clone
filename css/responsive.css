@@ -85,6 +85,7 @@
 .hero-btn{
     padding: 20px 40px;
     font-size: 1rem;
+    margin-bottom: 40px;
 }
 
 .hero-btn:last-child{
@@ -93,6 +94,25 @@
     margin-left: 15px;
 }
 
+.chart-img_container, .floating-img{
+    width: 25%;
+}
+
+.dashboard-img_container{
+    width: 70%;
+}
+
+.floating-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-img, 
+.chart-img,
+.floating-plane,
+.floating-tringulo{
+    max-width: 100%;
+}
 /* Hero end */
 
 /* Seo implementation effectively start */
