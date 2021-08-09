@@ -53,6 +53,48 @@
 
 /* Reset end */
 
+/* Hero start */
+
+.hero{
+    background-color: #03122F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img_container{
+    display: flex;
+    max-width: 100%;
+}
+
+.hero-title{
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+.hero-btn{
+    padding: 20px 40px;
+    font-size: 1rem;
+}
+
+.hero-btn:last-child{
+    background: transparent;
+    border: 1px solid #ffffff;
+    margin-left: 15px;
+}
+
+/* Hero end */
+
 /* Seo implementation effectively start */
 
 .seoimplementeffec{
@@ -972,39 +1014,6 @@
         padding-left:5%;
     }
 
-    .hero{
-        background-color: #03122F;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-title{
-        color: #ffffff;
-        padding: 0 10%;
-        margin-bottom: 70px;
-        font-size: 45px;
-    }
-
-    .hero-btn{
-        padding: 15px 45px;
-        font-size: 14px;
-    }
-
-    .hero-btn:last-child{
-        background: transparent;
-        border: 1px solid #ffffff;
-        margin-left: 15px;
-    }
 
     /* seoimplementeffec start */
 
