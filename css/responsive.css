@@ -84,7 +84,7 @@
 
 .hero-btn{
     padding: 20px 40px;
-    font-size: 1rem;
+    font-size: 0.6rem;
     margin-bottom: 40px;
 }
 
@@ -117,6 +117,9 @@
 
 .floating-img{
     display: flex;
+    animation: animationVertical;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .dashboard-img, 
@@ -137,6 +140,20 @@
     transform: translateY(15px);
 }
 
+
+@keyframes animationVertical {
+    0%{
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
+}
 /* Hero end */
 
 /* Seo implementation effectively start */
@@ -1011,7 +1028,7 @@
     }
 
 
-    @keyframes animation {
+    @keyframes animationTriangulo {
         0% {
             transform: translate(5px, 15px);
         }
@@ -1036,7 +1053,7 @@
 
     .footer_float-img1,
     .footer_float-img2{
-        animation-name: animation;
+        animation-name: animationTriangulo;
         animation-duration: 5s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
